@@ -80,10 +80,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "MKM Tech Hub — WiFi, Networks & Web Solutions in Eldoret" },
       { name: "description", content: "MKM Tech Hub delivers Hotspot & PPPoE WiFi installation, network management, web development, cyber services and tech consultation across Kenya." },
       { name: "author", content: "MKM Tech Hub" },
-      { property: "og:title", content: "MKM Tech Hub — WiFi, Networks & Web Solutions" },
-      { property: "og:description", content: "Hotspot & PPPoE WiFi installation, network management, web development, cyber services and tech consultation." },
+      { property: "og:title", content: "MKM Tech Hub — WiFi, Networks & Web Solutions in Eldoret" },
+      { property: "og:description", content: "MKM Tech Hub delivers Hotspot & PPPoE WiFi installation, network management, web development, cyber services and tech consultation across Kenya." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "MKM Tech Hub — WiFi, Networks & Web Solutions in Eldoret" },
+      { name: "twitter:description", content: "MKM Tech Hub delivers Hotspot & PPPoE WiFi installation, network management, web development, cyber services and tech consultation across Kenya." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/326019d1-9423-446f-992b-148c97ce1cc3" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/326019d1-9423-446f-992b-148c97ce1cc3" },
     ],
     links: [
       {
