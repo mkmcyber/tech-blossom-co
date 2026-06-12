@@ -5,6 +5,7 @@ import { Menu, X, Wifi } from "lucide-react";
 const nav = [
   { to: "/", label: "Home" },
   { to: "/services", label: "Services" },
+  { to: "/cyber-services", label: "Cyber" },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
 ] as const;
@@ -37,7 +38,7 @@ export function Header() {
             to="/contact"
             className="rounded-full bg-gradient-primary px-5 py-2 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:scale-105"
           >
-            Get a quote
+            Start a project
           </Link>
         </nav>
         <button
@@ -67,7 +68,7 @@ export function Header() {
               onClick={() => setOpen(false)}
               className="mt-2 rounded-full bg-gradient-primary px-5 py-3 text-center text-sm font-semibold text-primary-foreground shadow-glow"
             >
-              Get a quote
+              Start a project
             </Link>
           </div>
         </div>
