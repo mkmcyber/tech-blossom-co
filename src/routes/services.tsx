@@ -35,6 +35,10 @@ const showcases = [
 ];
 
 function ServicesPage() {
+  useSeo(
+    "Services — MKM Tech Hub",
+    "WiFi installation (Hotspot & PPPoE), network management, web development, online cyber services and tech consultation across Kenya.",
+  );
   return (
     <SiteLayout>
       <Toaster richColors position="top-center" />

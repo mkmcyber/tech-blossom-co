@@ -87,6 +87,10 @@ function inquireLink(pkg: string) {
 }
 
 function CyberServicesPage() {
+  useSeo(
+    "Online Cyber Services & Packages — MKM Tech Hub",
+    "KRA, HELB, NTSA, eCitizen, TSC, applications, printing and more. Choose a cyber services package and inquire instantly via WhatsApp.",
+  );
   return (
     <SiteLayout>
       <Toaster richColors position="top-center" />
