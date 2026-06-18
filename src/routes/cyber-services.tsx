@@ -3,16 +3,9 @@ import { SiteLayout } from "@/components/site/Layout";
 import { ContactSection } from "@/components/site/ContactSection";
 import { Toaster } from "@/components/ui/sonner";
 import { Check, ArrowRight, FileText, GraduationCap, Briefcase, Sparkles } from "lucide-react";
+import { useSeo } from "@/hooks/use-seo";
 
 export const Route = createFileRoute("/cyber-services")({
-  head: () => ({
-    meta: [
-      { title: "Online Cyber Services & Packages — MKM Tech Hub" },
-      { name: "description", content: "KRA, HELB, NTSA, eCitizen, TSC, applications, printing and more. Choose a cyber services package and inquire instantly via WhatsApp." },
-      { property: "og:title", content: "Online Cyber Services Packages — MKM Tech Hub" },
-      { property: "og:description", content: "Affordable cyber services packages for students, job seekers, and businesses across Kenya." },
-    ],
-  }),
   component: CyberServicesPage,
 });
 
@@ -94,6 +87,10 @@ function inquireLink(pkg: string) {
 }
 
 function CyberServicesPage() {
+  useSeo(
+    "Online Cyber Services & Packages — MKM Tech Hub",
+    "KRA, HELB, NTSA, eCitizen, TSC, applications, printing and more. Choose a cyber services package and inquire instantly via WhatsApp.",
+  );
   return (
     <SiteLayout>
       <Toaster richColors position="top-center" />

@@ -2,20 +2,17 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
 import { ContactSection } from "@/components/site/ContactSection";
 import { Toaster } from "@/components/ui/sonner";
+import { useSeo } from "@/hooks/use-seo";
 
 export const Route = createFileRoute("/contact")({
-  head: () => ({
-    meta: [
-      { title: "Contact — MKM Tech Hub" },
-      { name: "description", content: "Reach MKM Tech Hub for WiFi installation, network support, web development and online cyber services in Eldoret and across Kenya." },
-      { property: "og:title", content: "Contact — MKM Tech Hub" },
-      { property: "og:description", content: "Call, WhatsApp or message us — we respond fast." },
-    ],
-  }),
   component: ContactPage,
 });
 
 function ContactPage() {
+  useSeo(
+    "Contact — MKM Tech Hub",
+    "Reach MKM Tech Hub for WiFi installation, network support, web development and online cyber services in Eldoret and across Kenya.",
+  );
   return (
     <SiteLayout>
       <Toaster richColors position="top-center" />

@@ -4,16 +4,9 @@ import { Reviews } from "@/components/site/Reviews";
 import { Toaster } from "@/components/ui/sonner";
 import aboutImg from "@/assets/about-tech.jpg";
 import { Target, Heart, Sparkles, Users } from "lucide-react";
+import { useSeo } from "@/hooks/use-seo";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: "About — MKM Tech Hub" },
-      { name: "description", content: "MKM Tech Hub is a Kenyan tech company delivering WiFi, network management, web development and cyber services with care and craftsmanship." },
-      { property: "og:title", content: "About — MKM Tech Hub" },
-      { property: "og:description", content: "Our story, mission and the team powering MKM Tech Hub." },
-    ],
-  }),
   component: AboutPage,
 });
 
@@ -25,6 +18,10 @@ const values = [
 ];
 
 function AboutPage() {
+  useSeo(
+    "About — MKM Tech Hub",
+    "MKM Tech Hub is a Kenyan tech company delivering WiFi, network management, web development and cyber services with care and craftsmanship.",
+  );
   return (
     <SiteLayout>
       <Toaster richColors position="top-center" />

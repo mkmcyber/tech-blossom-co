@@ -7,16 +7,9 @@ import servicesNet from "@/assets/services-network.jpg";
 import servicesWeb from "@/assets/services-web.jpg";
 import servicesCyber from "@/assets/services-cyber.jpg";
 import { ArrowRight } from "lucide-react";
+import { useSeo } from "@/hooks/use-seo";
 
 export const Route = createFileRoute("/services")({
-  head: () => ({
-    meta: [
-      { title: "Services — MKM Tech Hub" },
-      { name: "description", content: "WiFi installation (Hotspot & PPPoE), network management, web development, online cyber services and tech consultation across Kenya." },
-      { property: "og:title", content: "Services — MKM Tech Hub" },
-      { property: "og:description", content: "WiFi installation, network management, web development, online cyber services and tech consultation." },
-    ],
-  }),
   component: ServicesPage,
 });
 
@@ -42,6 +35,10 @@ const showcases = [
 ];
 
 function ServicesPage() {
+  useSeo(
+    "Services — MKM Tech Hub",
+    "WiFi installation (Hotspot & PPPoE), network management, web development, online cyber services and tech consultation across Kenya.",
+  );
   return (
     <SiteLayout>
       <Toaster richColors position="top-center" />
