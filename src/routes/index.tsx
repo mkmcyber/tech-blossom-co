@@ -7,20 +7,17 @@ import { Reviews } from "@/components/site/Reviews";
 import { ContactSection } from "@/components/site/ContactSection";
 import { Toaster } from "@/components/ui/sonner";
 import heroNetwork from "@/assets/hero-network.jpg";
+import { useSeo } from "@/hooks/use-seo";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "MKM Tech Hub — WiFi, Networks & Web Solutions" },
-      { name: "description", content: "Hotspot & PPPoE WiFi installation, network management, web development, cyber services and tech consultation in Eldoret and across Kenya." },
-      { property: "og:title", content: "MKM Tech Hub — WiFi, Networks & Web Solutions" },
-      { property: "og:description", content: "Hotspot & PPPoE WiFi installation, network management, web development, cyber services and tech consultation." },
-    ],
-  }),
   component: Index,
 });
 
 function Index() {
+  useSeo(
+    "MKM Tech Hub — WiFi, Networks & Web Solutions",
+    "Hotspot & PPPoE WiFi installation, network management, web development, cyber services and tech consultation in Eldoret and across Kenya.",
+  );
   return (
     <SiteLayout>
       <Toaster richColors position="top-center" />
