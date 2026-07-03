@@ -51,7 +51,7 @@
 :root {
   --radius: 0.75rem;
   --background: oklch(0.13 0.04 270);
-  --foreground: okl comúnch(0.98 0.02 270);
+  --foreground: oklch(0.98 0.02 270);
   --card: oklch(0.18 0.05 270);
   --card-foreground: oklch(0.98 0.02 270);
   --popover: oklch(0.16 0.05 270);
@@ -76,18 +76,18 @@
   --chart-4: oklch(0.78 0.16 100);
   --chart-5: oklch(0.65 0.20 25);
   --sidebar: oklch(0.16 0.05 270);
-  --sidebar-foreground: oklch(0.97 0.01 270);
-  --sidebar-primary: oklch(0.62 0.22 275);
-  --sidebar-primary-foreground: oklch(0.98 0.01 270);
-  --sidebar-accent: oklch(0.24 0.07 270);
-  --sidebar-accent-foreground: oklch(0.97 0.01 270);
-  --sidebar-border: oklch(0.30 0.06 270);
-  --sidebar-ring: oklch(0.62 0.22 275);
+  --sidebar-foreground: oklch(0.98 0.02 270);
+  --sidebar-primary: oklch(0.68 0.24 275);
+  --sidebar-primary-foreground: oklch(0.98 0.02 270);
+  --sidebar-accent: oklch(0.28 0.08 270);
+  --sidebar-accent-foreground: oklch(0.98 0.02 270);
+  --sidebar-border: oklch(0.35 0.07 270);
+  --sidebar-ring: oklch(0.68 0.24 275);
 
-  --gradient-hero: radial-gradient(ellipse at top, oklch(0.30 0.18 280) 0%, oklch(0.13 0.04 270) 60%);
-  --gradient-primary: linear-gradient(135deg, oklch(0.55 0.24 285), oklch(0.72 0.20 260));
-  --gradient-card: linear-gradient(160deg, oklch(0.22 0.07 275) 0%, oklch(0.16 0.05 270) 100%);
-  --shadow-glow: 0 20px 60px -20px oklch(0.55 0.24 285 / 0.5);
+  --gradient-hero: radial-gradient(ellipse at top, oklch(0.35 0.20 280) 0%, oklch(0.13 0.04 270) 60%);
+  --gradient-primary: linear-gradient(135deg, oklch(0.62 0.26 285), oklch(0.78 0.22 260));
+  --gradient-card: linear-gradient(160deg, oklch(0.25 0.09 275) 0%, oklch(0.16 0.05 270) 100%);
+  --shadow-glow: 0 20px 60px -20px oklch(0.62 0.26 285 / 0.5);
   --shadow-elegant: 0 10px 40px -10px oklch(0.05 0.04 270 / 0.6);
 }
 
