@@ -3,7 +3,7 @@ import { Wifi, Mail, Phone, MapPin } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="border-t border-border/60 bg-card/40">
+    <footer className="relative z-10 border-t border-border/60 bg-background/40 backdrop-blur-sm">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4">
         <div className="md:col-span-2">
           <Link to="/" className="flex items-center gap-2">
