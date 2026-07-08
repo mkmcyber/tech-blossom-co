@@ -10,6 +10,9 @@ import tsconfigPaths from "vite-tsconfig-paths";
 // The GitHub Action in .github/workflows/deploy.yml does this automatically.
 export default defineConfig({
   base: process.env.VITE_BASE_PATH || "/",
+  define: {
+    __BUILD_VERSION__: JSON.stringify(new Date().toISOString()),
+  },
   plugins: [
     TanStackRouterVite({ target: "react", autoCodeSplitting: true }),
     react(),
