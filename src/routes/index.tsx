@@ -59,11 +59,11 @@ function Index() {
             <dl className="mt-10 grid max-w-md grid-cols-3 gap-4 border-t border-border/60 pt-6">
               <div>
                 <dt className="text-xs text-muted-foreground">Installations</dt>
-                <dd className="text-2xl font-bold text-gradient">500+</dd>
+                <dd className="text-2xl font-bold text-gradient">200+</dd>
               </div>
               <div>
                 <dt className="text-xs text-muted-foreground">Uptime</dt>
-                <dd className="text-2xl font-bold text-gradient">99.9%</dd>
+                <dd className="text-2xl font-bold text-gradient">90.5</dd>
               </div>
               <div>
                 <dt className="text-xs text-muted-foreground">Support</dt>
