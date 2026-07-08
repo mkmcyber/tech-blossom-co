@@ -26,7 +26,7 @@ export function ContactSection() {
     <section id="contact" className="relative overflow-hidden py-20 sm:py-28">
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-gradient-hero opacity-60"
+        className="pointer-events-none absolute inset-0 bg-gradient-hero opacity-30"
       />
       <div className="relative mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-2">
         <div>

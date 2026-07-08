@@ -84,12 +84,45 @@
   --sidebar-border: oklch(0.35 0.07 270);
   --sidebar-ring: oklch(0.68 0.24 275);
 
-  --gradient-hero: radial-gradient(ellipse at top, oklch(0.35 0.20 280) 0%, oklch(0.13 0.04 270) 60%);
+  --glow-1: oklch(0.55 0.30 285);
+  --glow-2: oklch(0.55 0.28 220);
+  --glow-3: oklch(0.60 0.30 340);
+  --grid-line: oklch(0.98 0.02 270);
+  --scanline: oklch(0.98 0.02 270);
+
+  --gradient-background: radial-gradient(ellipse at 50% 0%, oklch(0.22 0.14 280) 0%, oklch(0.13 0.08 260) 35%, oklch(0.10 0.05 270) 70%);
+  --gradient-hero: radial-gradient(ellipse at top, oklch(0.35 0.20 280) 0%, transparent 60%);
   --gradient-primary: linear-gradient(135deg, oklch(0.62 0.26 285), oklch(0.78 0.22 260));
   --gradient-card: linear-gradient(160deg, oklch(0.25 0.09 275) 0%, oklch(0.16 0.05 270) 100%);
   --shadow-glow: 0 20px 60px -20px oklch(0.62 0.26 285 / 0.5);
   --shadow-elegant: 0 10px 40px -10px oklch(0.05 0.04 270 / 0.6);
 }
+
+@keyframes orb-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(6%, 8%) scale(1.08); }
+}
+
+@keyframes orb-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-8%, 5%) scale(1.05); }
+}
+
+@keyframes orb-3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(5%, -7%) scale(1.06); }
+}
+
+@utility animate-orb-1 {
+  animation: orb-1 18s ease-in-out infinite;
+}
+@utility animate-orb-2 {
+  animation: orb-2 22s ease-in-out infinite;
+}
+@utility animate-orb-3 {
+  animation: orb-3 20s ease-in-out infinite;
+}
+
 
 @layer base {
   * {
