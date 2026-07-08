@@ -29,7 +29,7 @@ const reviews = [
 
 export function Reviews() {
   return (
-    <section className="border-y border-border/60 bg-card/30 py-20 sm:py-28">
+    <section className="relative z-10 border-y border-border/60 bg-background/30 py-20 backdrop-blur-sm sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <span className="rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-primary">
