@@ -44,7 +44,7 @@ export function BackgroundEffects() {
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse at center, transparent 40%, hsl(var(--background) / 0.55) 100%)",
+            "radial-gradient(ellipse at center, transparent 40%, oklch(0.10 0.05 270 / 0.6) 100%)",
         }}
       />
     </div>
