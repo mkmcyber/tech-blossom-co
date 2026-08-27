@@ -5,7 +5,8 @@ import { ContactSection } from "@/components/site/ContactSection";
 import { Toaster } from "@/components/ui/sonner";
 import servicesNet from "@/assets/services-network.jpg";
 import servicesWeb from "@/assets/services-web.jpg";
-import servicesCyber from "@/assets/cyber-workspace.jpg.asset.json";
+import servicesCyberAsset from "@/assets/cyber-workspace.jpg.asset.json";
+const servicesCyber = servicesCyberAsset.url;
 import { ArrowRight } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
 
