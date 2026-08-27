@@ -5,7 +5,8 @@ import { ContactSection } from "@/components/site/ContactSection";
 import { Toaster } from "@/components/ui/sonner";
 import servicesNet from "@/assets/services-network.jpg";
 import servicesWeb from "@/assets/services-web.jpg";
-import servicesCyber from "@/assets/services-cyber.jpg";
+import servicesCyberAsset from "@/assets/cyber-workspace.jpg.asset.json";
+const servicesCyber = servicesCyberAsset.url;
 import { ArrowRight } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
 
@@ -74,7 +75,7 @@ function ServicesPage() {
             </div>
             <div className="relative">
               <div className="absolute -inset-3 rounded-3xl bg-gradient-primary opacity-25 blur-3xl" />
-              <img src={s.img} alt={s.title} loading="lazy" width={1280} height={800} className="relative aspect-[16/10] w-full rounded-2xl border border-border/60 object-cover shadow-elegant" />
+              <img src={s.img} alt={`${s.title} — MKM Tech Hub workspace with laptop, router and networking equipment`} loading="lazy" width={1280} height={800} className="relative aspect-[16/10] w-full rounded-2xl border border-border/60 object-cover shadow-elegant" />
             </div>
           </div>
         ))}
