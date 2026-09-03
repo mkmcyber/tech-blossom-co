@@ -4,7 +4,7 @@ const reviews = [
   {
     name: "Brian K.",
     role: "Cafe Owner, Eldoret",
-    text: "MKM installed our hotspot system and we now earn from every customer. Setup was clean and support is instant.",
+    text: "Salubrious Tech installed our hotspot system and we now earn from every customer. Setup was clean and support is instant.",
     rating: 5,
   },
   {

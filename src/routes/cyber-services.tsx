@@ -81,14 +81,14 @@ const packages: Pkg[] = [
 
 function inquireLink(pkg: string) {
   const text = encodeURIComponent(
-    `Hello MKM Tech Hub, I'd like to inquire about the "${pkg}" cyber services package. Please share more details.`,
+    `Hello SALUBRIOUS TECH LTD, I'd like to inquire about the "${pkg}" cyber services package. Please share more details.`,
   );
   return `https://wa.me/254791398996?text=${text}`;
 }
 
 function CyberServicesPage() {
   useSeo(
-    "Online Cyber Services & Packages — MKM Tech Hub",
+    "Online Cyber Services & Packages — SALUBRIOUS TECH LTD",
     "KRA, HELB, NTSA, eCitizen, TSC, applications, printing and more. Choose a cyber services package and inquire instantly via WhatsApp.",
   );
   return (

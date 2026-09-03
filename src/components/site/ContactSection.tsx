@@ -12,7 +12,7 @@ export function ContactSection() {
     const message = String(data.get("message") || "");
     const phone = String(data.get("phone") || "");
     const body = encodeURIComponent(
-      `Hello MKM Tech Hub,\n\nMy name is ${name} (${phone}).\n\n${message}`,
+      `Hello SALUBRIOUS TECH LTD,\n\nMy name is ${name} (${phone}).\n\n${message}`,
     );
     setSending(true);
     window.location.href = `https://wa.me/254791398996?text=${body}`;

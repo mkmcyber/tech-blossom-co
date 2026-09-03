@@ -10,8 +10,8 @@ export const Route = createFileRoute("/contact")({
 
 function ContactPage() {
   useSeo(
-    "Contact — MKM Tech Hub",
-    "Reach MKM Tech Hub for WiFi installation, network support, web development and online cyber services in Eldoret and across Kenya.",
+    "Contact — SALUBRIOUS TECH LTD",
+    "Reach SALUBRIOUS TECH LTD for WiFi installation, network support, web development and online cyber services in Eldoret and across Kenya.",
   );
   return (
     <SiteLayout>
