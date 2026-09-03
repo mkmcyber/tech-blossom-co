@@ -20,7 +20,7 @@ export function Header() {
             <Wifi className="h-5 w-5 text-primary-foreground" />
           </span>
           <span className="font-display text-lg font-bold tracking-tight">
-            MKM <span className="text-gradient">Tech Hub</span>
+            SALUBRIOUS <span className="text-gradient">TECH LTD</span>
           </span>
         </Link>
         <nav className="hidden items-center gap-8 md:flex">

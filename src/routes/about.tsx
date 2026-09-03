@@ -19,8 +19,8 @@ const values = [
 
 function AboutPage() {
   useSeo(
-    "About — MKM Tech Hub",
-    "MKM Tech Hub is a Kenyan tech company delivering WiFi, network management, web development and cyber services with care and craftsmanship.",
+    "About — SALUBRIOUS TECH LTD",
+    "SALUBRIOUS TECH LTD is a Kenyan tech company delivering WiFi, network management, web development and cyber services with care and craftsmanship.",
   );
   return (
     <SiteLayout>
@@ -34,7 +34,7 @@ function AboutPage() {
               We build the tech that <span className="text-gradient">keeps Kenya online</span>
             </h1>
             <p className="mt-5 text-muted-foreground">
-              MKM Tech Hub started with a simple goal: deliver internet, networks
+              SALUBRIOUS TECH LTD started with a simple goal: deliver internet, networks
               and digital services people can actually rely on. From a small
               operation in Eldoret, we’ve grown into a trusted partner for
               homes, landlords, schools, cafes and businesses across the

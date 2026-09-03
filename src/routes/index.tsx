@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   useSeo(
-    "MKM Tech Hub — WiFi, Networks & Web Solutions",
+    "SALUBRIOUS TECH LTD — WiFi, Networks & Web Solutions",
     "Hotspot & PPPoE WiFi installation, network management, web development, cyber services and tech consultation in Eldoret and across Kenya.",
   );
   return (
@@ -38,7 +38,7 @@ function Index() {
               Modern websites.
             </h1>
             <p className="mt-6 max-w-xl text-base text-muted-foreground sm:text-lg">
-              MKM Tech Hub installs hotspot & PPPoE WiFi systems, manages
+              SALUBRIOUS TECH LTD installs hotspot & PPPoE WiFi systems, manages
               networks, builds beautiful websites and runs trusted online cyber
               services — from Eldoret to anywhere in Kenya.
             </p>
@@ -75,7 +75,7 @@ function Index() {
             <div className="absolute -inset-4 rounded-3xl bg-gradient-primary opacity-30 blur-3xl" />
             <img
               src={heroNetwork}
-              alt="MKM Tech Hub technician installing rooftop WiFi antenna at sunset"
+              alt="SALUBRIOUS TECH LTD technician installing rooftop WiFi antenna at sunset"
               width={1600}
               height={1024}
               className="relative aspect-[4/3] w-full rounded-3xl border border-border/60 object-cover shadow-elegant"

@@ -11,7 +11,7 @@ export function Footer() {
               <Wifi className="h-5 w-5 text-primary-foreground" />
             </span>
             <span className="font-display text-lg font-bold">
-              MKM <span className="text-gradient">Tech Hub</span>
+              SALUBRIOUS <span className="text-gradient">TECH LTD</span>
             </span>
           </Link>
           <p className="mt-4 max-w-md text-sm text-muted-foreground">
@@ -38,7 +38,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-border/60 py-6 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} MKM Tech Hub. All rights reserved.
+        © {new Date().getFullYear()} SALUBRIOUS TECH LTD. All rights reserved.
         <span className="ml-2 rounded-md border border-border/60 bg-muted/40 px-2 py-0.5 font-mono text-[10px] text-muted-foreground">
           Build {new Date(__BUILD_VERSION__).toLocaleString(undefined, { dateStyle: "short", timeStyle: "short" })}
         </span>
